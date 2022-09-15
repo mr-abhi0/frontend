@@ -29,7 +29,11 @@ function App() {
             <h2> {students.id} {students.stuname} {students.email} </h2>
           )
         })
+
       }
+      <p>
+        Environment: <b> {process.env.NODE_ENV} </b>
+      </p>
     </div>
   );
 }
