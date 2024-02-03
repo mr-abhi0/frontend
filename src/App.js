@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     async function getAllStudents() {
       try {
-        const students = await axios.get("https://mrabhi001.pythonanywhere.com/api/students/")
+        const students = await axios.get("https://mrabhi007.pythonanywhere.com/api/students/")
         console.log(students.data)
         setStudents(students.data)
       } catch (error) {
